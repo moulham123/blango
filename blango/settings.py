@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'crispy_forms',
+    'crispy_bootstrap5',
 ]
 
 MIDDLEWARE = [
@@ -130,3 +132,6 @@ CSRF_TRUSTED_ORIGINS=[os.environ.get('CODIO_HOSTNAME')+'-8000.codio.io']
 CSRF_COOKIE_SECURE=True
 SESSION_COOKIE_SECURE=True
 CSRF_COOKIE_SAMESITE='None'
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
