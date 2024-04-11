@@ -1,5 +1,5 @@
-from crispy_form.layout import Submit
-from crispy_form.helper import FormHelper
+from crispy_forms.layout import Submit
+from crispy_forms.helper import FormHelper
 from django import forms
 from blog.models import Comment
 
